@@ -1,17 +1,6 @@
-// import PropTypes from 'prop-types';
 import React,{ useState, useRef, useEffect } from 'react';
-// import React, { useState } from "react";
 
 export default function Todos() {
-    // const initialTodos = ["My first todo", "My second todo"];
-    // const [checkedbox, setCheckedbox] = useState();
-    // const handleChange = (event) =>{
-    //     if (event.target.checked == false) {
-    //         setCheckedbox();
-    //     } else if (event.target.checked == true) {
-    //         setCheckedbox(checked);
-    //     }
-    // }
     return (
         <>
                 <div>
@@ -22,7 +11,3 @@ export default function Todos() {
         </>
         )
 }
-
-// Todos.propTypes = {
-//     content: PropTypes.string.isRequired,
-//   };
